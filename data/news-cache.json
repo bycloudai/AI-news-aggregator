@@ -1,0 +1,125 @@
+{
+  "lastUpdated": "2026-02-04T16:40:50.261Z",
+  "news": [
+    {
+      "id": "meta-ai-blog-1770223230768-2",
+      "originalTitle": "Introducing SAM Audio: The First Unified Multimodal Model for Audio Separation",
+      "title": "Introducing SAM Audio: The First Unified Multimodal Model for Audio Separation",
+      "url": "https://ai.meta.com/blog/sam-audio/",
+      "source": "Meta AI Blog",
+      "sourceType": "blog",
+      "date": "2026-02-04T16:40:50.261Z",
+      "isAIRelated": true
+    },
+    {
+      "id": "meta-ai-blog-1770223230774-6",
+      "originalTitle": "The Universities Space Association Applies Segment Anything Model for Responding to Flood Emergencies",
+      "title": "The Universities Space Association Applies Segment Anything Model for Responding to Flood Emergencies",
+      "url": "https://ai.meta.com/blog/usra-sam-flood-emergencies/",
+      "source": "Meta AI Blog",
+      "sourceType": "blog",
+      "date": "2026-02-04T16:40:50.261Z",
+      "isAIRelated": true
+    },
+    {
+      "id": "meta-ai-blog-1770223230774-8",
+      "originalTitle": "How Conservation X Labs Is Using Segment Anything Model 3 for Endangered Wildlife Monitoring",
+      "title": "How Conservation X Labs Is Using Segment Anything Model 3 for Endangered Wildlife Monitoring",
+      "url": "https://ai.meta.com/blog/segment-anything-conservation-x-wildlife-monitoring/",
+      "source": "Meta AI Blog",
+      "sourceType": "blog",
+      "date": "2026-02-04T16:40:50.261Z",
+      "isAIRelated": true
+    },
+    {
+      "id": "meta-ai-blog-1770223230775-10",
+      "originalTitle": "ExecuTorch Adoption in Reality Labs: Powering On-Device AI Across Meta Devices",
+      "title": "ExecuTorch Adoption in Reality Labs: Powering On-Device AI Across Meta Devices",
+      "url": "https://ai.meta.com/blog/executorch-reality-labs-on-device-ai/",
+      "source": "Meta AI Blog",
+      "sourceType": "blog",
+      "date": "2026-02-04T16:40:50.261Z",
+      "isAIRelated": true
+    },
+    {
+      "id": "anthropic-blog-1770223221790-4",
+      "originalTitle": "Claude is a space to think",
+      "title": "Claude is a space to think",
+      "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+      "source": "Anthropic Blog",
+      "sourceType": "blog",
+      "date": "2026-02-04T05:00:00.000Z",
+      "isAIRelated": true
+    },
+    {
+      "id": "anthropic-blog-1770223221790-5",
+      "originalTitle": "Apple’s Xcode now supports the Claude Agent SDK",
+      "title": "Apple’s Xcode now supports the Claude Agent SDK",
+      "url": "https://www.anthropic.com/news/apple-xcode-claude-agent-sdk",
+      "source": "Anthropic Blog",
+      "sourceType": "blog",
+      "date": "2026-02-03T05:00:00.000Z",
+      "isAIRelated": true
+    },
+    {
+      "id": "anthropic-blog-1770223221790-3",
+      "originalTitle": "Introducing Claude Haiku 4.5Claude Haiku 4.5 matches state-of-the-art coding capabilities from months ago while delivering unprecedented speed and cost-efficiency for complex tasks.",
+      "title": "Introducing Claude Haiku 4.5Claude Haiku 4.5 matches state-of-the-art coding capabilities from months ago while delivering unprecedented speed and cost-efficiency for complex tasks.",
+      "url": "https://www.anthropic.com/news/claude-haiku-4-5",
+      "source": "Anthropic Blog",
+      "sourceType": "blog",
+      "date": "2026-01-30T05:00:00.000Z",
+      "isAIRelated": true
+    },
+    {
+      "id": "anthropic-blog-1770223221790-7",
+      "originalTitle": "ServiceNow chooses Claude to power customer apps and increase internal ivity",
+      "title": "ServiceNow chooses Claude to power customer apps and increase internal ivity",
+      "url": "https://www.anthropic.com/news/servicenow-anthropic-claude",
+      "source": "Anthropic Blog",
+      "sourceType": "blog",
+      "date": "2026-01-28T05:00:00.000Z",
+      "isAIRelated": true
+    },
+    {
+      "id": "anthropic-blog-1770223221790-8",
+      "originalTitle": "Anthropic partners with the UK Government to bring AI assistance to GOV.UK services",
+      "title": "Anthropic partners with the UK Government to bring AI assistance to GOV.UK services",
+      "url": "https://www.anthropic.com/news/gov-UK-partnership",
+      "source": "Anthropic Blog",
+      "sourceType": "blog",
+      "date": "2026-01-27T05:00:00.000Z",
+      "isAIRelated": true
+    },
+    {
+      "id": "deepmind-blog-1770223236869-0",
+      "originalTitle": "SIMA 2 An agent that plays, reasons, and learns with you",
+      "title": "SIMA 2 An agent that plays, reasons, and learns with you",
+      "url": "https://deepmind.google/blog/sima-2-an-agent-that-plays-reasons-and-learns-with-you-in-virtual-3d-worlds/",
+      "source": "DeepMind Blog",
+      "sourceType": "blog",
+      "date": "2025-11-13T18:55:00.000Z",
+      "isAIRelated": true
+    },
+    {
+      "id": "minimax-blog-1770223248165-4",
+      "originalTitle": "MiniMax Hailuo 2.3 / 2.3 Fast",
+      "title": "MiniMax Hailuo 2.3 / 2.3 Fast",
+      "url": "https://www.minimax.io/news/minimax-hailuo-23",
+      "source": "MiniMax",
+      "sourceType": "blog",
+      "date": "2025-10-28T00:00:00.000Z",
+      "isAIRelated": true
+    },
+    {
+      "id": "deepmind-blog-1770223236870-4",
+      "originalTitle": "AlphaEarth Foundations Map our planet in unprecedented detail",
+      "title": "AlphaEarth Foundations Map our planet in unprecedented detail",
+      "url": "https://deepmind.google/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/",
+      "source": "DeepMind Blog",
+      "sourceType": "blog",
+      "date": "2025-07-30T00:00:00.000Z",
+      "isAIRelated": true
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "blogs": [
+    {
+      "id": "anthropic-blog",
+      "name": "Anthropic Blog",
+      "url": "https://www.anthropic.com/news",
+      "enabled": true,
+      "type": "blog"
+    },
+    {
+      "id": "google-ai-blog",
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/",
+      "enabled": true,
+      "type": "blog"
+    },
+    {
+      "id": "meta-ai-blog",
+      "name": "Meta AI Blog",
+      "url": "https://ai.meta.com/blog/",
+      "enabled": true,
+      "type": "blog"
+    },
+    {
+      "id": "deepmind-blog",
+      "name": "DeepMind Blog",
+      "url": "https://deepmind.google/discover/blog/",
+      "enabled": true,
+      "type": "blog"
+    },
+    {
+      "id": "mistral-blog",
+      "name": "Mistral AI Blog",
+      "url": "https://mistral.ai/news/",
+      "enabled": true,
+      "type": "blog"
+    },
+    {
+      "id": "kimi-blog",
+      "name": "Kimi",
+      "url": "https://kimi-k2.org/blog",
+      "enabled": true,
+      "type": "blog"
+    },
+    {
+      "id": "zhipu-blog",
+      "name": "Zhipu AI",
+      "url": "https://www.zhipuai.cn/en/news",
+      "enabled": true,
+      "type": "blog"
+    },
+    {
+      "id": "minimax-blog",
+      "name": "MiniMax",
+      "url": "https://www.minimax.io/news",
+      "enabled": true,
+      "type": "blog"
+    }
+  ],
+  "twitter": [
+    {
+      "id": "anthropic-twitter",
+      "name": "Anthropic",
+      "handle": "@AnthropicAI",
+      "url": "PLACEHOLDER_RSS_URL",
+      "enabled": true,
+      "type": "twitter"
+    },
+    {
+      "id": "google-ai-twitter",
+      "name": "Google AI",
+      "handle": "@GoogleAI",
+      "url": "PLACEHOLDER_RSS_URL",
+      "enabled": true,
+      "type": "twitter"
+    },
+    {
+      "id": "meta-ai-twitter",
+      "name": "Meta AI",
+      "handle": "@MetaAI",
+      "url": "PLACEHOLDER_RSS_URL",
+      "enabled": true,
+      "type": "twitter"
+    },
+    {
+      "id": "deepmind-twitter",
+      "name": "DeepMind",
+      "handle": "@GoogleDeepMind",
+      "url": "PLACEHOLDER_RSS_URL",
+      "enabled": true,
+      "type": "twitter"
+    },
+    {
+      "id": "mistral-twitter",
+      "name": "Mistral AI",
+      "handle": "@MistralAI",
+      "url": "PLACEHOLDER_RSS_URL",
+      "enabled": true,
+      "type": "twitter"
+    }
+  ],
+  "_instructions": {
+    "twitter_rss_setup": [
+      "1. Go to https://rss.app/rss-feed/create-twitter-rss-feed",
+      "2. Sign up for a free account",
+      "3. Enter the Twitter/X URL (e.g., https://x.com/OpenAI)",
+      "4. Copy the generated RSS feed URL",
+      "5. Replace PLACEHOLDER_RSS_URL with the RSS feed URL"
+    ],
+    "example_rss_url": "https://rss.app/feeds/xxxxxx.xml",
+    "note": "The free tier of RSS.app has limitations. For more feeds, consider their paid plans or self-host RSS-Bridge."
+  }
+}

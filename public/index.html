@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI News - Latest AI Releases</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <h1 class="logo">AI News</h1>
+      <p class="tagline">Latest releases from major AI labs</p>
+      <div class="header-actions">
+        <button id="refresh-btn" class="btn btn-primary">
+          <span class="btn-icon">↻</span> Refresh
+        </button>
+        <button id="manage-sources-btn" class="btn btn-secondary">
+          <span class="btn-icon">⚙</span> Sources
+        </button>
+      </div>
+    </header>
+
+    <!-- Status Bar -->
+    <div class="status-bar">
+      <span id="last-updated">Last updated: Never</span>
+      <span id="news-count">0 items</span>
+    </div>
+
+    <!-- Main News Feed -->
+    <main class="news-feed" id="news-feed">
+      <div class="loading" id="loading">Loading news...</div>
+      <div class="empty-state" id="empty-state" style="display: none;">
+        <p>No news yet. Click "Refresh" to fetch the latest AI news.</p>
+      </div>
+    </main>
+
+    <!-- Sources Modal -->
+    <div class="modal" id="sources-modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>Manage News Sources</h2>
+          <button class="modal-close" id="close-modal">&times;</button>
+        </div>
+        
+        <div class="modal-body">
+          <!-- Add New Source -->
+          <div class="add-source-form">
+            <h3>Add New Source</h3>
+            <form id="add-source-form">
+              <div class="form-row">
+                <select id="source-type" required>
+                  <option value="blog">Blog</option>
+                  <option value="twitter">Twitter/X (RSS)</option>
+                </select>
+                <input type="text" id="source-name" placeholder="Source Name" required>
+              </div>
+              <div class="form-row">
+                <input type="url" id="source-url" placeholder="URL (RSS feed URL for Twitter)" required>
+                <input type="text" id="source-handle" placeholder="@handle (Twitter only)">
+              </div>
+              <button type="submit" class="btn btn-primary">Add Source</button>
+            </form>
+          </div>
+
+          <!-- Existing Sources -->
+          <div class="sources-list">
+            <h3>Blog Sources</h3>
+            <div id="blog-sources"></div>
+            
+            <h3>Twitter/X Sources</h3>
+            <p class="source-hint">
+              Get RSS feeds from <a href="https://rss.app/rss-feed/create-twitter-rss-feed" target="_blank">rss.app</a>
+            </p>
+            <div id="twitter-sources"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/js/app.js"></script>
+</body>
+</html>
